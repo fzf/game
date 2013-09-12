@@ -8,7 +8,7 @@
 }
 
 
--(id) initWithProgressTimerSprite:(CCSprite *)sprite;
+-(id) init;
 
 -(void) update;
 

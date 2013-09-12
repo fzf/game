@@ -29,4 +29,7 @@
 - (id)initInLayer:(CCLayer *)l;
 - (void)attack:(Character *)character;
 - (void)loseLife:(NSInteger *)life;
+- (CCAnimate *)attackAction;
+- (void)counterAttack;
+
 @end

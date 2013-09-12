@@ -13,11 +13,17 @@
 
 @synthesize sprite,progressTimer;
 
--(id) initWithProgressTimerSprite:(CCSprite *)sprite
+static const ccColor3B ccDARKGREEN={0,100,0};
+
+
+-(id) init
 {
     self = [super init];
     self.progressTimer = [CCProgressTimer progressWithSprite:[CCSprite spriteWithFile:@"health.png"]];
     self.progressTimer.type = kCCProgressTimerTypeBar;
+    [self.progressTimer setColor:ccDARKGREEN];
+    [self.progressTimer setScaleY:0.2];
+    [self.progressTimer setScaleX:0.2];
     self.progressTimer.percentage = 100;
     self.progressTimer.midpoint = ccp(0, 0);
     self.progressTimer.barChangeRate = ccp(1, 0);

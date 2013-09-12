@@ -57,7 +57,8 @@ CCSprite *cocosGuy;
 
 -(void) loadMenu
 {
-    CCMenuItemImage * menuAttack = [CCMenuItemImage itemWithNormalImage:@"sword.png" selectedImage:@"sword.png" target:self selector:@selector(attack:)];
+    CCMenuItemImage *menuAttack = [CCMenuItemImage itemWithNormalImage:@"sword.png" selectedImage:@"sword.png" target:self selector:@selector(attack:)];
+
     CCMenu *menu = [CCMenu menuWithItems:menuAttack, nil];
     [menu alignItemsVerticallyWithPadding:10];
     

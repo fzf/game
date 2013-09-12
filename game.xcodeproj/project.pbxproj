@@ -158,6 +158,12 @@
 		3274D6F417DA68DE00B57FD6 /* health.png in Resources */ = {isa = PBXBuildFile; fileRef = 3274D6F317DA68DE00B57FD6 /* health.png */; };
 		32EBF4DB17E12B2300CA8EF8 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBF4DA17E12B2300CA8EF8 /* Character.m */; };
 		32EBF4E017E12EFD00CA8EF8 /* HealthBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBF4DF17E12EFD00CA8EF8 /* HealthBar.m */; };
+		32EBF4F617E2567A00CA8EF8 /* IntervalAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBF4F517E2567A00CA8EF8 /* IntervalAction.m */; };
+		32EBF4FB17E2714B00CA8EF8 /* soldier-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32EBF4F717E2714B00CA8EF8 /* soldier-hd.plist */; };
+		32EBF4FC17E2714B00CA8EF8 /* soldier-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 32EBF4F817E2714B00CA8EF8 /* soldier-hd.png */; };
+		32EBF4FD17E2714B00CA8EF8 /* soldier.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32EBF4F917E2714B00CA8EF8 /* soldier.plist */; };
+		32EBF4FE17E2714B00CA8EF8 /* soldier.png in Resources */ = {isa = PBXBuildFile; fileRef = 32EBF4FA17E2714B00CA8EF8 /* soldier.png */; };
+		32EBF50117E27F5200CA8EF8 /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBF50017E27F5100CA8EF8 /* Colors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -461,6 +467,14 @@
 		32EBF4DA17E12B2300CA8EF8 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
 		32EBF4DE17E12EFD00CA8EF8 /* HealthBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthBar.h; sourceTree = "<group>"; };
 		32EBF4DF17E12EFD00CA8EF8 /* HealthBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthBar.m; sourceTree = "<group>"; };
+		32EBF4F417E2567A00CA8EF8 /* IntervalAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntervalAction.h; sourceTree = "<group>"; };
+		32EBF4F517E2567A00CA8EF8 /* IntervalAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntervalAction.m; sourceTree = "<group>"; };
+		32EBF4F717E2714B00CA8EF8 /* soldier-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "soldier-hd.plist"; path = "Resources/sprites/soldier-hd.plist"; sourceTree = "<group>"; };
+		32EBF4F817E2714B00CA8EF8 /* soldier-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "soldier-hd.png"; path = "Resources/sprites/soldier-hd.png"; sourceTree = "<group>"; };
+		32EBF4F917E2714B00CA8EF8 /* soldier.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = soldier.plist; path = Resources/sprites/soldier.plist; sourceTree = "<group>"; };
+		32EBF4FA17E2714B00CA8EF8 /* soldier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = soldier.png; path = Resources/sprites/soldier.png; sourceTree = "<group>"; };
+		32EBF4FF17E27F5100CA8EF8 /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
+		32EBF50017E27F5100CA8EF8 /* Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colors.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -531,9 +545,13 @@
 				3274D6D017D94BFB00B57FD6 /* IntroLayer.m */,
 				32EBF4D917E12B2300CA8EF8 /* Character.h */,
 				32EBF4DA17E12B2300CA8EF8 /* Character.m */,
+				32EBF4F417E2567A00CA8EF8 /* IntervalAction.h */,
+				32EBF4F517E2567A00CA8EF8 /* IntervalAction.m */,
 				3274D53917D94BF900B57FD6 /* Resources */,
 				3274D55117D94BF900B57FD6 /* libs */,
 				3274D6C517D94BFB00B57FD6 /* Supporting Files */,
+				32EBF4FF17E27F5100CA8EF8 /* Colors.h */,
+				32EBF50017E27F5100CA8EF8 /* Colors.m */,
 			);
 			path = game;
 			sourceTree = "<group>";
@@ -568,6 +586,10 @@
 				3274D6DC17DA536B00B57FD6 /* human-ipadhd.png */,
 				3274D6DD17DA536B00B57FD6 /* human.plist */,
 				3274D6DE17DA536B00B57FD6 /* human.png */,
+				32EBF4F717E2714B00CA8EF8 /* soldier-hd.plist */,
+				32EBF4F817E2714B00CA8EF8 /* soldier-hd.png */,
+				32EBF4F917E2714B00CA8EF8 /* soldier.plist */,
+				32EBF4FA17E2714B00CA8EF8 /* soldier.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1012,6 +1034,10 @@
 				3274D6F017DA569A00B57FD6 /* AnimBear.png in Resources */,
 				3274D6F217DA64AF00B57FD6 /* sword.png in Resources */,
 				3274D6F417DA68DE00B57FD6 /* health.png in Resources */,
+				32EBF4FB17E2714B00CA8EF8 /* soldier-hd.plist in Resources */,
+				32EBF4FC17E2714B00CA8EF8 /* soldier-hd.png in Resources */,
+				32EBF4FD17E2714B00CA8EF8 /* soldier.plist in Resources */,
+				32EBF4FE17E2714B00CA8EF8 /* soldier.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1136,6 +1162,8 @@
 				3274D6D117D94BFB00B57FD6 /* IntroLayer.m in Sources */,
 				32EBF4DB17E12B2300CA8EF8 /* Character.m in Sources */,
 				32EBF4E017E12EFD00CA8EF8 /* HealthBar.m in Sources */,
+				32EBF4F617E2567A00CA8EF8 /* IntervalAction.m in Sources */,
+				32EBF50117E27F5200CA8EF8 /* Colors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
